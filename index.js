@@ -22,7 +22,7 @@ function prependKitten(name) {
   return cuteKittens;
 }
 function removeLastKitten(){
-  var superKittens = kittens.slice(1);
+  var superKittens = kittens.slice(2);
   return superKittens;
 }
 function removeFirstKitten(){
