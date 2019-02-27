@@ -26,6 +26,6 @@ function removeLastKitten(){
   return superKittens;
 }
 function removeFirstKitten(){
-  var bestKittens = kittens.slice(0,1);
+  var bestKittens = kittens.slice(1);
   return bestKittens;
 }
